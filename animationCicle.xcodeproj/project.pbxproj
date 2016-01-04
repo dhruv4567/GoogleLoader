@@ -14,6 +14,9 @@
 		FC2E71B71C2D512500EA3DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2E71B51C2D512500EA3DC6 /* LaunchScreen.storyboard */; };
 		FC2E71C21C2D512500EA3DC6 /* animationCicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E71C11C2D512500EA3DC6 /* animationCicleTests.swift */; };
 		FC2E71CD1C2D512500EA3DC6 /* animationCicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E71CC1C2D512500EA3DC6 /* animationCicleUITests.swift */; };
+		FCF525761C36D02A00151272 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF525751C36D02A00151272 /* QuartzCore.framework */; };
+		FCF525781C36D03F00151272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF525771C36D03F00151272 /* Foundation.framework */; };
+		FCF5257A1C36D04500151272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF525791C36D04500151272 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FC2E71C81C2D512500EA3DC6 /* animationCicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationCicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2E71CC1C2D512500EA3DC6 /* animationCicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationCicleUITests.swift; sourceTree = "<group>"; };
 		FC2E71CE1C2D512500EA3DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF525751C36D02A00151272 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FCF525771C36D03F00151272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCF525791C36D04500151272 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF5257A1C36D04500151272 /* UIKit.framework in Frameworks */,
+				FCF525781C36D03F00151272 /* Foundation.framework in Frameworks */,
+				FCF525761C36D02A00151272 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,9 @@
 		FC2E71A01C2D512500EA3DC6 = {
 			isa = PBXGroup;
 			children = (
+				FCF525791C36D04500151272 /* UIKit.framework */,
+				FCF525771C36D03F00151272 /* Foundation.framework */,
+				FCF525751C36D02A00151272 /* QuartzCore.framework */,
 				FC2E71AB1C2D512500EA3DC6 /* animationCicle */,
 				FC2E71C01C2D512500EA3DC6 /* animationCicleTests */,
 				FC2E71CB1C2D512500EA3DC6 /* animationCicleUITests */,
@@ -484,6 +496,7 @@
 				FC2E71D31C2D512500EA3DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC2E71D41C2D512500EA3DC6 /* Build configuration list for PBXNativeTarget "animationCicleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				FC2E71D61C2D512500EA3DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC2E71D71C2D512500EA3DC6 /* Build configuration list for PBXNativeTarget "animationCicleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				FC2E71D91C2D512500EA3DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
